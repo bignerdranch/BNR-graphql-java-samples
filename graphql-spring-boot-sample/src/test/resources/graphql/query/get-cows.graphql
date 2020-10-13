@@ -1,0 +1,6 @@
+{
+    cows {
+        id
+        color
+    }
+}

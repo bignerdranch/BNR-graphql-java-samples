@@ -1,0 +1,3 @@
+rootProject.name = 'BNR-graphql-java-samples'
+include 'graphql-spring-boot-sample'
+
