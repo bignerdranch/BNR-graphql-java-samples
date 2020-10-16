@@ -4,6 +4,7 @@ import com.bnr.graphql.data.Cow;
 import com.bnr.graphql.data.Nerd;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -13,8 +14,8 @@ public class BNRRepository {
     private final Map<String, Nerd> nerds;
 
     public BNRRepository() {
-        cows = new HashMap<>();
-        nerds = new HashMap<>();
+        cows = Collections.synchronizedMap(new HashMap<>());
+        nerds = Collections.synchronizedMap(new HashMap<>());
 
         Cow cow1 = new Cow("1", "Black", 3);
         cows.put(cow1.getId(), cow1);

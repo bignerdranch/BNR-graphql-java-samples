@@ -3,4 +3,4 @@ This repository's purpose is to hold some meaningful examples of building GraphQ
 
 ## graphql-spring-boot-sample
 Sample app using [graphql-spring-boot](https://github.com/graphql-java-kickstart/graphql-spring-boot).
-See that module's README for details.
+See that module's [README](graphql-spring-boot-sample/README.md) for details.
