@@ -1,0 +1,10 @@
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation("org.springframework.boot:spring-boot-starter-web")
+
+    implementation 'com.graphql-java-kickstart:graphql-spring-boot-starter:8.0.0'
+
+    testImplementation "org.springframework.boot:spring-boot-starter-test"
+
+    testImplementation "com.graphql-java-kickstart:graphql-spring-boot-starter-test:8.0.0"
+}

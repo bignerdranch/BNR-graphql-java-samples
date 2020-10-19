@@ -1,0 +1,5 @@
+mutation {
+    addCow(color: "Rainbow", age: 13) {
+        id
+    }
+}

@@ -1,0 +1,25 @@
+type Query {
+    cow(id: String!): Cow
+    cows: [Cow!]
+    nerd(id: String!): Nerd
+    nerds: [Nerd!]
+}
+
+type Mutation {
+    addCow(color: String!, age: Int): Cow
+    banishCow(id: String!): Cow
+}
+
+type Cow {
+    id: String!
+    color: String!
+    age: Int
+}
+
+type Nerd {
+    id: String!
+    skills: [String!]
+    name: String!
+    age: Int
+    cattle: [Cow!]
+}

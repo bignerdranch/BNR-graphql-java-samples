@@ -1,0 +1,9 @@
+{
+    nerd(id: "1") {
+        name
+        age
+        cattle{
+            id
+        }
+    }
+}
